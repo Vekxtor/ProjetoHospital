@@ -12,12 +12,13 @@ public class Principal {
         p.setCodPaciente(12022020);
         p.setSenha("Minhamareumapessaxxv");
         
-        p.setNome("Luis magrelo");
-        p.setRg("2642-3422-4123");
-        p.setCpf("143-445-124-34");
-        p.setIdade("75");
-        p.setCodPaciente(120212450);
-        p.setSenha("1917mereciaooscar");
+        Paciente p2 = new Paciente();
+        p2.setNome("Luis magrelo");
+        p2.setRg("2642-3422-4123");
+        p2.setCpf("143-445-124-34");
+        p2.setIdade("75");
+        p2.setCodPaciente(120212450);
+        p2.setSenha("1917mereciaooscar");
     
         //Instanciando Medico
         Medico m = new Medico();
@@ -49,6 +50,18 @@ public class Principal {
         e.setIdade("25");
         e.setCoren("Permitido a ajudar as pessoas");
         
+        //MOSTRANDO OS VALORES;
+        //mostrando incialmente os valores dos pacientes
+        System.out.println("PACIENTES\nNome: "+p.getNome()+"\nIdade: "+
+                p.getIdade()+"\nRG: "+p.getRg()+"\nCPF: "+p.getCpf()+
+                "\nCódigo do Paciente: "+p.getCodPaciente()+"\nSenha: "+
+                p.getSenha()+"\n");
+        
+        System.out.println("Nome: "+p2.getNome()+"\nIdade: "+
+                p2.getIdade()+"\nRG: "+p2.getRg()+"\nCPF: "+p2.getCpf()+
+                "\nCódigo do Paciente: "+p2.getCodPaciente()+"\nSenha: "+
+                p2.getSenha());
+    
     }
     
 }
