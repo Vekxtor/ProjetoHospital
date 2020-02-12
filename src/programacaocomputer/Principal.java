@@ -79,6 +79,17 @@ public class Principal {
                 m2.getIdade()+"\nRG: "+m2.getRg()+"\nCPF: "+m2.getCpf()+
                 "\nCRM do Doutor: "+m2.getCrm()+"\nSenha: "+
                 m2.getSenha()+"\nEspecialização: "+m2.getEspecialidade()+"\n");
+        
+        //mostrando incialmente os valores dos enfermeiros
+        System.out.println("ENFERMEIROS\nNome: "+e.getNome()+"\nIdade: "+
+                e.getIdade()+"\nRG: "+e.getRg()+"\nCPF: "+e.getCpf()+
+                "\nCoren do Doutor: "+e.getCoren()+"\nSenha: "+
+                e.getSenha()+"\n");
+        
+        System.out.println("\nNome: "+e2.getNome()+"\nIdade: "+
+                e2.getIdade()+"\nRG: "+e2.getRg()+"\nCPF: "+e2.getCpf()+
+                "\nCoren do Doutor: "+e2.getCoren()+"\nSenha: "+
+                e2.getSenha()+"\n");
     }
     
 }
