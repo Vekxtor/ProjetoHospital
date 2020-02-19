@@ -11,6 +11,7 @@ public class Enfermeiro extends Funcionario
         this.coren = coren;
     }
     
+    @Override
     public double gerarBonus()
     {
        return calculaSalario() * 0.2;
